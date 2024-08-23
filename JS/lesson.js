@@ -195,21 +195,68 @@
 
 
 // Парктика №5
-function getSubscriptionPrice(type) {
-    switch (type) {
-        case 'starter':
-            return 0;
-            break;
-        case 'professional':
-            return 20;
-            break;
-        case 'organization':
-            return 50;
-            break;
-        default : return 'Invalid subscription type'
-    }
-}
+// function getSubscriptionPrice(type) {
+//     switch (type) {
+//         case 'starter':
+//             return 0;
+//             break;
+//         case 'professional':
+//             return 20;
+//             break;
+//         case 'organization':
+//             return 50;
+//             break;
+//         default : return 'Invalid subscription type'
+//     }
+// }
 
-console.log(getSubscriptionPrice("premium"));
-console.log(getSubscriptionPrice("organization"));
-console.log(getSubscriptionPrice("professional"));
+// console.log(getSubscriptionPrice("premium"));
+// console.log(getSubscriptionPrice("organization"));
+// console.log(getSubscriptionPrice("professional"));
+
+// -------------------------------------------------------------------------
+// Приклади з конспекту
+// if (null) {
+//     console.log('Block if');
+// }
+// else {
+//     console.log('Block else');
+// }
+
+// if ('') {
+//     console.log('Block if');
+// }
+// else {
+//     console.log('Block else')
+// }
+
+// -------------------------------------------------------------------------
+
+// console.log('hello' && 5);
+// console.log(5 && 'hello');
+
+// console.log('mango' && 'poly');
+// console.log('poly' && 'mango');
+
+// console.log(3 && true);
+// console.log(true && 3);
+
+// -------------------------------------------------------------------------
+
+// console.log("hello" && 0); // 0
+// console.log(0 && "hello"); // 0
+
+// console.log(3 && false); // false
+// console.log(false && 3); // false
+
+// console.log(0 && ""); // 0
+// console.log("" && 0); // ""
+
+// -------------------------------------------------------------------------
+
+const a = 20;
+console.log(a > 10 && a < 30);
+
+const b = 50;
+console.log(b > 10 && b < 30);
+console.log(b > 80 && b < 120);
