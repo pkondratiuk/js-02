@@ -230,6 +230,7 @@
 //     console.log('Block else')
 // }
 
+// Логічне «І»
 // -------------------------------------------------------------------------
 
 // console.log('hello' && 5);
@@ -254,9 +255,152 @@
 
 // -------------------------------------------------------------------------
 
-const a = 20;
-console.log(a > 10 && a < 30);
+// const a = 20;
+// console.log(a > 10 && a < 30);
 
-const b = 50;
-console.log(b > 10 && b < 30);
-console.log(b > 80 && b < 120);
+// const b = 50;
+// console.log(b > 10 && b < 30);
+// console.log(b > 80 && b < 120);
+
+
+// -------------------------------------------------------------------------
+
+// const screenWidth = 200;
+// const sm = 320;
+// const md = 768;
+// const lg = 1200;
+
+// if (screenWidth <= sm) {
+//     console.log('Mobile screen');
+// }
+
+// else if (screenWidth > sm && screenWidth <= md) {
+//     console.log('Tablet screen');
+// }
+// else if (screenWidth > md && screenWidth <= lg) {
+//     console.log('Desktop screen');
+// }
+// else {
+//     console.log('Godzilla screen');
+// }
+
+// Парктика №
+
+// function isNumberInRange(start, end, number) {
+//     return number >= start && number <= end;
+// }
+
+// console.log(isNumberInRange(10, 30, 17));
+// console.log(isNumberInRange(10, 30, 5));
+// console.log(isNumberInRange(20, 50, 24));
+// console.log(isNumberInRange(20, 50, 76));
+
+
+// Логічне «АБО»
+// -------------------------------------------------------------------------
+// console.log(true || false);
+// console.log(false || true);
+// console.log(5 || false);
+// console.log(false || 5);
+// console.log('hello' || 0);
+// console.log(0 || 'hello');
+// console.log(5 || 3);
+// console.log(3 || 5);
+// console.log('Pavlo' || 'Natalia');
+// console.log('Natalia' || 'Pavlo');
+
+// -------------------------------------------------------------------------
+
+// const a = 5;
+// console.log(a < 10 || a > 30);
+
+// const b = 50;
+// console.log(b < 10 || b > 30);
+
+// const c = 20;
+// console.log(c - 20 || c * 2);
+
+// -------------------------------------------------------------------------
+
+// const screenWidth = 800;
+// const sm = 320;
+// const md = 768;
+// const lg = 1200;
+
+// if (screenWidth <= sm || screenWidth > md) {
+//     console.log('Mobile or Desctop screen');
+// }
+// -------------------------------------------------------------------------
+// Парктика №
+
+// function checkAccess(subType) {
+//     if (subType === 'pro' || subType === 'vip') {
+//         return true;
+//     }
+//     else {
+//         return false;
+//     }
+// }
+// console.log(checkAccess("pro"));
+// console.log(checkAccess("starter"));
+// console.log(checkAccess("vip"));
+// console.log(checkAccess("free"));
+
+// -------------------------------------------------------------------------
+// Логічне «НІ»
+// -------------------------------------------------------------------------
+
+// console.log(!true);
+// console.log(!false);
+// console.log(!3);
+// console.log(!'Mango');
+// console.log(!0);
+// console.log(!'');
+// console.log(!null);
+
+// const isBlocked = true;
+// const canChat = !isBlocked;
+
+// if (canChat) {
+//     console.log('Can type in chat!');
+// }
+// else {
+//     console.log('Blocked from typing in chat')
+// }
+
+// const isOnline = true;
+// const isBlocked = true;
+// const canChat = isOnline && !isBlocked;
+
+// if (canChat) {
+//     console.log('Can type in chat!');
+// }
+// else {
+//     console.log('Blocked from typing in chat')
+// }
+
+// Парктика №
+
+// function toggleModalVisibility(isVisble) {
+//     return !isVisble;
+// }
+
+// console.log(toggleModalVisibility(true));
+// console.log(toggleModalVisibility(false))
+
+
+// -------------------------------------------------------------------------
+// -------------------------------------------------------------------------
+// Меитоди рядків
+// -------------------------------------------------------------------------
+// -------------------------------------------------------------------------
+
+
+
+// const message = 'I am learn JavaScript';
+// console.log(message.length);
+// console.log(message.toUpperCase())
+
+// -------------------------------------------------------------------------
+// Меитоди рядків
+// -------------------------------------------------------------------------
